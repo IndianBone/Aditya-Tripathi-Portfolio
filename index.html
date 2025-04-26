@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- AOS CSS for scroll animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+  <style>
+    /* --- Dark Mode Styles (Added) --- */
+    body.dark-mode {
+      background: #121212 !important;
+      color: #f5f5f5 !important;
+    }
+    body.dark-mode a {
+      color: #bbf72d !important;
+    }
+  </style>
+</head>
+<body onload="AOS.init()">
+<div id="main_container">
+  <div id="header">
+    <div class="header_logotype_container">
+      <h1 class="logotype_name">Aditya <span class="purple">Tripathi</span></h1>
+      <h2 class="logotype_occupation">Frontend Web Developer</h2>
+      <!-- Typing effect welcome message -->
+      <p id="typed-text" style="font-size: 21px; color: #a66cee; font-weight: normal; text-align: center;"></p>
+    </div>
+    <div class="header_menu_container">
+      <div class="clear"></div>
+      <ul class="header_menu horizontal_list">
+        <li><a class="no_border purple" href="#">Profile</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="left_col">
+    <div class="profile_frame">
+      <div class="profile_picture" id="profile-pic"></div>
+    </div>
+    <div class="hello_content" data-aos="fade-up" data-aos-delay="50">
+      <h2>Hello!</h2>
+      <p>I'm passionate about technology, hardworker and a fast-learner</p>
+    </div>
+    <div class="contact_details_content" data-aos="fade-up" data-aos-delay="100">
+      <h2>Contact details</h2>
+      <p class="purple">Phone:</p>
+      <p>+91 89202 94901</p>
+      <p class="purple">Email:</p>
+      <p>aditya90tripathi@gmail.com</p>
+      <p class="purple">Address:</p>
+      <p>VIT CHENNAI</p>
+      <p>D2 BLOCK</p>
+      <p>600127</p>
+    </div>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHVddcDNbXBppFNBpzVXgBgQsvtQrZHnlpszCbjTxqDQlFNZLmjTSNJDggCvdjBtnVnq" class="send_message_button" data-aos="fade-up" data-aos-delay="150">
+      <span class="cut1"></span>
+      <span class="cut2"></span>
+      <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+    </a>
+    <div class="get_social_content" data-aos="fade-up" data-aos-delay="200">
+      <h2>Get social</h2>
+      <ul class="social_icons horizontal_list">
+        <li>
+          <a class="instagram" href="https://www.instagram.com/aaadityah/">
+            <img src="instagram.svg" alt="Instagram">
+          </a>
+        </li>
+        <li>
+          <a class="linkedin" href="https://www.linkedin.com/in/aditya-tripathi-1476ba235/">
+            <img src="linkedin.svg" alt="LinkedIn">
+          </a>
+        </li>          
+      </ul>
+    </div>        
+  </div>
+
+  <!-- PROFILE CONTENT -->
+  <div id="content_container">
+    <div class="block" data-aos="fade-up" data-aos-delay="100">
+      <h1>Profile</h1>
+      <blockquote class="profile_quote">
+        <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
+        <p>Jiddu Krishnamurti.</p>
+        <span class="entypo-quote"></span>
+      </blockquote>
+    </div>
+    <div class="block" data-aos="fade-up" data-aos-delay="150">
+      <h2>A few words about me</h2>
+      <!-- Glass effect applied to content only -->
+      <div class="glass">
+        <p>
+          I am a focused and ambitious individual with a strong passion for technology and problem-solving. My academic background and technical skills in programming drive me to tackle complex challenges and continuously grow in the field of software development.
+        </p>
+      </div>
+    </div>
+
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <div class="block" data-aos="fade-up" data-aos-delay="200">
+      <h2>Philosophy</h2>
+      <p>I believe in ethics and moral values, not in imposed rules that you have to follow.</p>
+      <div class="philosophy_content">
+        <!-- Wrap only the non-heading paragraph with the hover magnification effect -->
+        <div class="hover-magnify">
+          <p>
+            I believe life is made of different shades of grey, not black and white. As a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself.
+          </p>
+        </div>
+        <ul>
+          <li>Pragmatic</li>
+          <li>Honest</li>
+          <li>Respectful</li>
+          <li>Open-minded</li>
+          <li>Collaborative</li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <div id="education" class="block" data-aos="fade-up" data-aos-delay="250">
+      <h2>Education</h2>
+      <p>Education is about growth, not rules. It’s a journey of discovery, not just grades. Teach curiosity, empathy, and adaptability. Learn to live with purpose, not just to earn.</p>
+      <div class="philosophy_content">
+        <ul>
+          <li><strong>Vellore Institute of technology Chennai</strong> - B.Tech in Computer Science with Specialization in AI & ML, 2023-2027</li>
+          <li><strong>Kendriya Vidyalaya</strong> - 12th grade, 2023</li>
+          <li><strong>Kendriya Vidyalaya</strong> - 10th grade, 2021</li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <div id="skills" class="block" data-aos="fade-up" data-aos-delay="300">
+      <h2>Skills</h2>
+      <div class="philosophy_content">
+        <ul>
+          <li><strong>Programming Languages: </strong> - Java, C, C++, Python</li>
+          <li><strong>Web Development: </strong> - HTML, CSS, JavaScript</li>
+          <li><strong>Problem Solving: </strong> - Strong analytical skills, algorithms, and data structures</li>
+          <li><strong>Teamwork: </strong> - Collaborative, able to work effectively in teams</li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
+    </div>
+
+    <div class="last block" data-aos="fade-up" data-aos-delay="350">
+      <h2>Interests & Hobbies</h2>
+      <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
+      <ul>
+        <li>Visiting new places</li>
+        <li>Meeting people</li>
+        <li>Having new experiences</li>
+        <li>Hiking and Biking</li>
+        <li>Web Development</li>
+        <li>Computer Gaming</li>
+        <li>Watching and playing football</li>
+        <li>Netflix & Chill</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Parallax section added before footer -->  
+  <div class="parallax" style="background-image: url('your-background.jpg'); height:300px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+
+  <div class="clear"></div>
+  <!-- FOOTER -->
+  <div id="footer"></div>
+</div>
+
+<!-- Theme Toggle Button -->
+<button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+
+<!-- Scripts for AOS, Typed.js, and GSAP -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+  // Hidden Clickable Element (Easter Egg) on the profile picture
+  let clickCount = 0;
+  document.getElementById('profile-pic').addEventListener('click', function() {
+    clickCount++;
+    if (clickCount === 5) {
+      gsap.to(this, { rotation: 360, duration: 1, scale: 1.3 });
+      alert('You found the Easter egg! 🎉');
+      clickCount = 0;
+    }
+  });
+
+  // Text Typing Effect using Typed.js
+  new Typed("#typed-text", {
+    strings: ["Welcome to my portfolio!", "Scroll down to know more..."],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+  });
+
+  // Theme Toggle Script
+  const currentTheme = localStorage.getItem('theme');
+  if (currentTheme === 'dark-mode') {
+    document.body.classList.add('dark-mode');
+  }
+  document.getElementById('theme-toggle').addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+      localStorage.setItem('theme', 'dark-mode');
+    } else {
+      localStorage.removeItem('theme');
+    }
+  });
+
+  // Magnifier Effect for Philosophy Section
+  const magnifyContainer = document.getElementById('magnifyContainer');
+  if(magnifyContainer) {
+    const magnifier = magnifyContainer.querySelector('.magnifier');
+    const magnifiedText = magnifyContainer.querySelector('#magnifiedText');
+    magnifyContainer.addEventListener('mousemove', (e) => {
+      const rect = magnifyContainer.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      magnifier.style.left = `${x}px`;
+      magnifier.style.top = `${y}px`;
+      magnifiedText.style.left = `${-x * 1.8 + 60}px`;
+      magnifiedText.style.top = `${-y * 2 + 60}px`;
+    });
+    magnifyContainer.addEventListener('mouseleave', () => {
+      magnifier.style.left = `-9999px`;
+    });
+  }
+</script>
+</body>
+</html>
